@@ -1,7 +1,7 @@
 #include <bcm2835.h>
 #include <stdio.h>
 
-#define PIN RPI_GPIO_P1_07
+#define PIN RPI_BPLUS_GPIO_J8_07
 
 int main(int argc, char **argv) {
 	if (!bcm2835_init())
